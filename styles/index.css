@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.2s;
+}
+.headerElements ul a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.headerElements ul a:hover {
+    color: #b4b4b4;
+    border-bottom: 1px solid #b4b4b4;
+    cursor: pointer;
+}
+
+.headerElements ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 80px 20px 80px;
+    list-style-type: none;
+}
+
+.headerElements {
+    background-color: #070E3C;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    width: 100vw;
+    height: 15vh;
+}
+
+.logoImg {
+    width: 11vh;
+    height: 11vh;
+    background-image: url('../img/logoLuminaris.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1.5vh;
+    margin-left: 4.5vh;
+}
+
+.logoImg:hover {
+    cursor: pointer;
+}
+.backgroundImg {
+    height: 100vh;
+    width: 90vw;
+}
